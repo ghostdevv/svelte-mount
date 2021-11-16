@@ -37,15 +37,17 @@ To use you have two options, a component or a store:
 
     ```html
     <script>
-        import { mounted } from './mounted';
+        import { mounted } from 'svelte-mount';
 
         $: if ($mounted)
             console.log(
-                document.getElementsByTagName('h1')[0].innerHTML
+                document.getElementById('example').innerHTML
             )
     </script>
 
-    <h1>Hello world!</h1>
+    <h1 id="example"> 
+        Hello World
+    </h1>
     ```
 
 # Support
