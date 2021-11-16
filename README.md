@@ -37,17 +37,15 @@ To use you have two options, a component or a store:
 
     ```html
     <script>
-        <script>
-            import { mounted } from './mounted';
+        import { mounted } from './mounted';
 
-            $: if ($mounted)
-                console.log(
-                    document.getElementsByTagName('h1')[0].innerHTML
-                )
-        </script>
-
-        <h1>Hello world!</h1>
+        $: if ($mounted)
+            console.log(
+                document.getElementsByTagName('h1')[0].innerHTML
+            )
     </script>
+
+    <h1>Hello world!</h1>
     ```
 
 # Support
