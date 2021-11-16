@@ -7,7 +7,7 @@ Svelte mount is a library that allows you to tell when a component is mounted wi
 We should save as a dev dependancy with `-D`
 
 ```sh
-npm install svelte-hamburgers -D
+npm install svelte-mount -D
 ```
 
 # Using
