@@ -1,6 +1,7 @@
 {
   "name": "svelte-mount",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "build": "svelte-kit build",
     "package": "svelte-kit package",
@@ -16,5 +17,13 @@
     "tslib": "^2.3.1",
     "typescript": "^4.4.3"
   },
-  "type": "module"
+  "license": "MIT",
+  "author": "GHOST",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ghostdevv/svelte-mount.git"
+  },
+  "bugs": {
+      "url": "https://github.com/ghostdevv/svelte-mount/issues"
+  }
 }
