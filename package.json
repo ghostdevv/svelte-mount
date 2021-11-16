@@ -20,6 +20,10 @@
   },
   "license": "MIT",
   "author": "GHOST",
+  "contributors": [
+    "GHOST <ghostdevbusiness@gmail.com> (https://ghostdev.xyz)",
+    "Bjorn Lu <hi@bjornlu.com> (https://bjornlu.com)"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ghostdevv/svelte-mount.git"
