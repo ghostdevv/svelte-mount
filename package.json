@@ -1,7 +1,7 @@
 {
   "name": "svelte-mount",
   "description": "A library to make detecting mounted state easier in Svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "build": "svelte-kit build",
