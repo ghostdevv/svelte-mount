@@ -7,7 +7,6 @@
     "package": "svelte-kit package",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
-  "files": [],
   "devDependencies": {
     "@sveltejs/kit": "next",
     "prettier": "^2.4.1",
