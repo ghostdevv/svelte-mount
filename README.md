@@ -1,5 +1,7 @@
 # Svelte Mount
 
+Works with Svelte 3 & 4!
+
 Svelte mount is a library that allows you to tell when a component is mounted without having to write the boilerplate everytime
 
 # Installing
@@ -37,10 +39,9 @@ To use you have two options, a component or a store:
     <script>
         import { mounted } from 'svelte-mount';
 
-        $: if ($mounted)
-            console.log(
-                document.getElementById('example').innerHTML
-            )
+        $: if ($mounted) {
+            console.log(document.getElementById('example').innerHTML)
+        }
     </script>
 
     <h1 id="example"> 
