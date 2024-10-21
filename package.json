@@ -14,9 +14,9 @@
 		"svelte": "^3.55.0 || ^4.0.0"
 	},
 	"license": "MIT",
-	"author": "GHOST",
+	"author": "Willow GHOST <ghostdevbusiness@gmail.com> (https://ghostdev.xyz)",
 	"contributors": [
-		"GHOST <ghostdevbusiness@gmail.com> (https://ghostdev.xyz)",
+		"Willow GHOST <ghostdevbusiness@gmail.com> (https://ghostdev.xyz)",
 		"Bjorn Lu <hi@bjornlu.com> (https://bjornlu.com)"
 	],
 	"repository": {
