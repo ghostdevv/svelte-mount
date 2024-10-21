@@ -1,14 +1,14 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-    export let mounted = false;
+	export let mounted = false;
 
-    onMount(() => {
-        mounted = true;
-        return () => (mounted = false);
-    });
+	onMount(() => {
+		mounted = true;
+		return () => (mounted = false);
+	});
 </script>
 
 {#if mounted}
-    <slot />
+	<slot />
 {/if}

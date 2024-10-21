@@ -20,14 +20,12 @@ To use you have two options, a component or a store:
 
     ```html
     <script>
-        import { fly } from 'svelte/transition';
-        import { Mount } from 'svelte-mount';
+    	import { fly } from 'svelte/transition';
+    	import { Mount } from 'svelte-mount';
     </script>
 
     <Mount>
-        <div in:fly="{{ y: -20 }}">
-            Hello World
-        </div>
+    	<div in:fly="{{ y: -20 }}">Hello World</div>
     </Mount>
     ```
 
@@ -37,16 +35,14 @@ To use you have two options, a component or a store:
 
     ```html
     <script>
-        import { mounted } from 'svelte-mount';
+    	import { mounted } from 'svelte-mount';
 
-        $: if ($mounted) {
-            console.log(document.getElementById('example').innerHTML)
-        }
+    	$: if ($mounted) {
+    		console.log(document.getElementById('example').innerHTML);
+    	}
     </script>
 
-    <h1 id="example"> 
-        Hello World
-    </h1>
+    <h1 id="example">Hello World</h1>
     ```
 
 # Support
