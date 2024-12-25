@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount, Snippet } from 'svelte';
+	import { onMount, type Snippet } from 'svelte';
 
 	interface Props {
 		mounted?: boolean;

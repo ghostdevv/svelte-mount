@@ -1,14 +1,11 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "allowSyntheticDefaultImports": true,
-        "moduleResolution": "node",
-        "module": "esnext",
-        "target": "esnext",
-        "lib": [
-            "esnext",
-            "DOM",
-            "DOM.Iterable"
-        ],
-    }
+	"compilerOptions": {
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"verbatimModuleSyntax": true,
+		"moduleResolution": "node",
+		"module": "esnext",
+		"target": "esnext",
+		"lib": ["esnext", "DOM", "DOM.Iterable"]
+	}
 }
