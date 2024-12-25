@@ -1,7 +1,7 @@
 {
 	"name": "svelte-mount",
 	"description": "A library to make detecting mounted state easier in Svelte",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"scripts": {
 		"package": "svelte-package --input src"
 	},
